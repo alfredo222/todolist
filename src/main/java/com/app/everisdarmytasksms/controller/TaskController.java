@@ -16,7 +16,8 @@ import com.app.everisdarmytasksms.model.Task;
 import com.app.everisdarmytasksms.service.TaskService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+//@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://azuretareasalfredo.azurewebsites.net")
 public class TaskController {
 	
 	@Autowired
